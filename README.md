@@ -1,6 +1,8 @@
 # SNCSE
 SNCSE: Contrastive Learning for Unsupervised Sentence Embedding with Soft Negative Samples
 
+This is the repository for SNCSE.
+
 SNCSE aims to alleviate feature suppression in contrastive learning for unsupervised sentence embedding. In the field, feature suppression means the models fail to distinguish and decouple textual similarity and semantic similarity. As a result, they may overestimate the semantic similarity of any pairs with similar textual regardless of the actual semantic difference between them. And the models may underestimate the semantic similarity of pairs with less words in common. (Please refer to Section 5 of our paper for several instances and detailed analysis.) To this end, we propose to take the negation of original sentences as soft negative samples, and introduve them into the traditional contrastive learning framework through bidirectional margin loss (BML). The structure of SNCSE is as follows:
 
 ![models2](https://user-images.githubusercontent.com/49329979/149649193-849afb0a-6cdf-4944-90ff-eb917ef8653a.png)
