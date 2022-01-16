@@ -679,7 +679,7 @@ if __name__ == "__main__":
     Different_Prompt_Negation = True
 
     # Read soft negative sample
-    file_path = r"/mnt/lustre/wanghao2/my_data/new_hard_negation.txt"
+    file_path = r"Files/soft_negative_samples.txt"
     negation = dict()
     f = open(file_path)
     for line in f:
