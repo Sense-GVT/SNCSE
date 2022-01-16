@@ -21,5 +21,11 @@ python generate_soft_negative_samples.py
 
 to generate soft negative samples, or use our files in /Files/soft_negative_samples.txt. Then you may modify and run train_SNCSE.sh.
 
+To evalute the checkpoints saved during traing on the development set of STSB task, please run:
+
+python bert_evaluation.py
+
+python roberta_evaluation.py
+
 Feel free to contact the authors at wanghao2@sensetime.com for any questions.
 
