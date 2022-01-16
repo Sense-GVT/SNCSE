@@ -36,14 +36,14 @@ def calculate_cosine(tokenizer, model, texts):
 
 if __name__ == "__main__":
 
-    tokenizer = RobertaTokenizer(vocab_file=r"SNCSE-roberta-base\vocab.json",
-                                 merges_file=r"SNCSE-roberta-base\merges.txt")
+    tokenizer = RobertaTokenizer(vocab_file=r"SNCSE-roberta-base/vocab.json",
+                                 merges_file=r"SNCSE-roberta-base/merges.txt")
     model = RobertaModel.from_pretrained(r"SNCSE-roberta-base").cuda()
 
     temp = {"mask_token": "<mask>"}
     tokenizer.add_special_tokens(temp)
 
-    main_path = r"files\/STS"
+    main_path = r"files/STS"
 
     s = []
 
