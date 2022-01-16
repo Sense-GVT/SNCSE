@@ -100,8 +100,8 @@ def main(ckpt_path, evaluation_file):
 
 if __name__ == "__main__":
 
-    ckpt_path = r"/mnt/lustre/wanghao2/result/final_version/roberta_large"
-    evaluation_file = r"/mnt/lustre/wanghao2/result/final_version/roberta_large.json"
+    ckpt_path = r""
+    evaluation_file = r""
     main(ckpt_path=ckpt_path, evaluation_file=evaluation_file)
 
 
