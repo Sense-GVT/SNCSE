@@ -36,7 +36,7 @@ def calculate_cosine(tokenizer, model, texts):
 
 if __name__ == "__main__":
 
-    tokenizer = BertTokenizer(vocab_file=r"SNCSE-bert-base-uncased\vocab.txt")
+    tokenizer = BertTokenizer(vocab_file=r"SNCSE-bert-base-uncased/vocab.txt")
 
     temp = {"mask_token": tokenizer.mask_token}
     tokenizer.add_special_tokens(temp)
