@@ -5,5 +5,11 @@ SNCSE aims to alleviate feature suppression in contrastive learning for unsuperv
 
 ![models2](https://user-images.githubusercontent.com/49329979/149649193-849afb0a-6cdf-4944-90ff-eb917ef8653a.png)
 
+The performance of SNCSE on STS task with different encoders is:
 
+Model         STS12 STS13 STS14 STS15 STS16 STSB SICK-R Avg.
+BERT_base
+BERT_large
+RoBERTa_base
+RoBERTa_large
 Feel free to contact the authors at wanghao2@sensetime.com for any questions.
