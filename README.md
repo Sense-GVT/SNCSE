@@ -9,7 +9,7 @@ The performance of SNCSE on STS task with different encoders is:
 
 ![image](https://user-images.githubusercontent.com/49329979/149649862-f33ef789-af2f-495f-b52c-f2336d9ba3f5.png)
 
-To reproduct above results, please [download] the models, adjust the file path variables and run:
+To reproduct above results, please [download](https://pan.baidu.com/s/10KpCU2v_Wk36OxEBSdykiQ?pwd=0wot) the models, adjust the file path variables and run:
 
 python bert_prediction.py
 python roberta_prediction.py
