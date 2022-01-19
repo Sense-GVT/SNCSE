@@ -11,11 +11,15 @@ The performance of SNCSE on STS task with different encoders is:
 
 ![image](https://user-images.githubusercontent.com/49329979/149649862-f33ef789-af2f-495f-b52c-f2336d9ba3f5.png)
 
+
+
 To reproduct above results, please [download](https://pan.baidu.com/s/1fkvNRxu-ytbVbtxQhNF4Gw?pwd=9y7y) the files and unzip it to replace the original file folder. Then [download](https://pan.baidu.com/s/10KpCU2v_Wk36OxEBSdykiQ?pwd=0wot) the models, modify the file path variables and run:
 
 python bert_prediction.py
 
 python roberta_prediction.py
+
+
 
 To train SNCSE, please [download](https://huggingface.co/datasets/princeton-nlp/datasets-for-simcse/blob/main/wiki1m_for_simcse.txt) the training file, and put it at /SNCSE/data. You can either run:
 
@@ -23,13 +27,19 @@ python generate_soft_negative_samples.py
 
 to generate soft negative samples, or use our files in /Files/soft_negative_samples.txt. Then you may modify and run train_SNCSE.sh.
 
-To evalute the checkpoints saved during traing on the development set of STSB task, please run:
+
+
+To  evalute the checkpoints saved during traing on the development set of STSB task, please run:
 
 python bert_evaluation.py
 
 python roberta_evaluation.py
 
+
+
 Feel free to contact the authors at wanghao2@sensetime.com for any questions.
+
+
 
 Please cite SNCSE as 
 
