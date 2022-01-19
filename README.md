@@ -1,5 +1,5 @@
 # SNCSE
-SNCSE: Contrastive Learning for Unsupervised Sentence Embedding with Soft Negative Samples
+[SNCSE: Contrastive Learning for Unsupervised Sentence Embedding with Soft Negative Samples](https://arxiv.org/abs/2201.05979)
 
 This is the repository for SNCSE.
 
@@ -30,4 +30,11 @@ python bert_evaluation.py
 python roberta_evaluation.py
 
 Feel free to contact the authors at wanghao2@sensetime.com for any questions.
+
+Please cite SNCSE as 
+{
+Hao Wang, Yangguang Li, Zhen Huang, Yong Dou, Lingpeng Kong, Jing Shao. 
+SNCSE: Contrastive Learning for Unsupervised Sentence Embedding with Soft Negative Samples.
+CoRR, abs/2201.05979, 2020.
+}
 
