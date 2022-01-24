@@ -28,7 +28,7 @@ to generate soft negative samples, or use our files in /Files/soft_negative_samp
 
 
 
-To  evalute the checkpoints saved during traing on the development set of STSB task, please run:
+To  evalute the checkpoints saved during training on the development set of STSB task, please run:
 ```
 python bert_evaluation.py
 python roberta_evaluation.py
