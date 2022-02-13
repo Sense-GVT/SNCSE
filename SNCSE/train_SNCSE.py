@@ -663,7 +663,6 @@ def main():
             # Need to save the state, since Trainer.save_model saves only the tokenizer with the model
             trainer.state.save_to_json(os.path.join(training_args.output_dir, "trainer_state.json"))
 
-    return results
 
 def _mp_fn(index):
     # For xla_spawn (TPUs)
