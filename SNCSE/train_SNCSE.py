@@ -476,7 +476,7 @@ def main():
 
                 tokens1 = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(sentence))
                 if len(tokens1) > max_seq_length1:
-                    tokens1 = tokens1[: max_seq_length]
+                    tokens1 = tokens1[: max_seq_length1]
                 tokens1 = [tokenizer.cls_token_id] + ss1 + tokens1 + s2 + [tokenizer.sep_token_id]
                 assert tokens1.count(tokenizer.mask_token_id) == 1
 
@@ -523,13 +523,13 @@ def main():
 
                 tokens1 = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(sentence))
                 if len(tokens1) > max_seq_length1:
-                    tokens1 = tokens1[: max_seq_length]
+                    tokens1 = tokens1[: max_seq_length1]
                 tokens1 = [tokenizer.cls_token_id] + ss1 + tokens1 + s2 + [tokenizer.sep_token_id]
                 assert tokens1.count(tokenizer.mask_token_id) == 1
 
                 tokens2 = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(negation_sentence))
                 if len(tokens2) > max_seq_length1:
-                    tokens2 = tokens2[: max_seq_length]
+                    tokens2 = tokens2[: max_seq_length1]
                 tokens2 = [tokenizer.cls_token_id] + ss1 + tokens2 + s2 + [tokenizer.sep_token_id]
                 assert tokens2.count(tokenizer.mask_token_id) == 1
 
