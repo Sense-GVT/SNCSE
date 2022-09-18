@@ -38,16 +38,12 @@ python roberta_evaluation.py
 Feel free to contact the authors at wanghao2@sensetime.com for any questions.
 
 
-
-Please cite SNCSE as 
-
-{
-
-Hao Wang, Yangguang Li, Zhen Huang, Yong Dou, Lingpeng Kong, Jing Shao.
-
-SNCSE: Contrastive Learning for Unsupervised Sentence Embedding with Soft Negative Samples.
-
-CoRR, abs/2201.05979, 2022.
-
+## citation
+```
+@article{wang2022sncse,
+  title={SNCSE: Contrastive Learning for Unsupervised Sentence Embedding with Soft Negative Samples},
+  author={Wang, Hao and Li, Yangguang and Huang, Zhen and Dou, Yong and Kong, Lingpeng and Shao, Jing},
+  journal={arXiv preprint arXiv:2201.05979},
+  year={2022}
 }
-
+```
